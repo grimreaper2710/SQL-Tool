@@ -9,7 +9,7 @@ p_headers = {'Content-Type': 'application/soap+xml;charset=UTF-8',
              'Host': 'eckvdev-test.fa.us2.oraclecloud.com:443',
              'Connection': 'Keep-Alive',
              'User-Agent': 'Apache-HttpClient/4.1.1 (java 1.5)',
-             'Authorization': 'Basic U2hhbGFiaC5BZ2dhcndhbDAyOlNoYWxhYmgjNCQ='}
+             'Authorization': 'Basic '}
 l_url = 'http://eckvdev-test.fa.us2.oraclecloud.com/'
 p_payload = """<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:pub="http://xmlns.oracle.com/oxp/service/PublicReportService">
    <soap:Header/>
